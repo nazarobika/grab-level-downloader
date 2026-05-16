@@ -1,0 +1,8 @@
+fetch("change_this_to_your_request_url")
+.then(r => r.blob())
+.then(b => {
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(b);
+    a.download = "level.level";
+    a.click();
+});
