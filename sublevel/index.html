@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>grab vr · sublevel extractor</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="page">
+
+        <header class="brand">
+            <h1>grab vr <span>sublevel extractor</span></h1>
+            <p>extract embedded sublevels from .level files</p>
+        </header>
+
+
+        <label class="drop-zone" id="dropZone">
+
+            <input
+                id="fileInput"
+                type="file"
+                accept=".level,application/octet-stream"
+            >
+
+            <div class="drop-content">
+
+                <div class="upload-icon">↑</div>
+
+                <div class="drop-title">
+                    drop your .level file here
+                </div>
+
+                <div class="drop-subtitle">
+                    or click to browse your files
+                </div>
+
+            </div>
+
+        </label>
+
+
+        <section class="results" id="results">
+
+            <div class="level-card">
+
+                <div class="level-label">
+                    level
+                </div>
+
+                <div
+                    class="level-name"
+                    id="levelName"
+                >
+                    unknown level
+                </div>
+
+                <div
+                    class="file-name"
+                    id="fileName"
+                ></div>
+
+            </div>
+
+
+            <div class="section-header">
+
+                <h2 class="section-title">
+                    sublevels found:
+                    <span class="count" id="count">0</span>
+                </h2>
+
+                <button
+                    class="copy-all"
+                    id="copyAll"
+                >
+                    copy all
+                </button>
+
+            </div>
+
+
+            <div
+                class="sublevels"
+                id="sublevels"
+            ></div>
+
+
+            <div
+                class="status"
+                id="status"
+            ></div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
