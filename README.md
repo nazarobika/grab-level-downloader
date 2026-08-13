@@ -26,3 +26,17 @@ This tool captures the original binary payload requested by the viewer page and 
 10. Press Enter
 
 Now you have your GRAB Level!
+
+## Sublevel Update:
+
+1. Get your .level file
+2. Host your sublevel site inside the `sublevel` folder
+3. Upload your .level file
+
+Now you have your GRAB sublevels!
+
+# Sublevel Usage
+
+Your normal link to the GRAB Level viewer should be like this: (Example: https://grabvr.quest/levels/viewer/?level=2e78h9rqe2sgkjcpgzzf7:1785356226)
+Now replace the string after ?level= with the string you copied from the site.
+Now you should have your GRAB Level viewer of the sublevel! You can download it using the exploit earlier!
